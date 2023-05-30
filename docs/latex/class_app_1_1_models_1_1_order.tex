@@ -1,0 +1,65 @@
+\doxysection{Класс Order}
+\hypertarget{class_app_1_1_models_1_1_order}{}\label{class_app_1_1_models_1_1_order}\index{Order@{Order}}
+Граф наследования\+:Order\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_app_1_1_models_1_1_order}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_order_a1dfa1e04d64fb75d4fd0a6362c6cd0c5}{products}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_order_a163addb6f4d71f3e4051d3415b38ea8d}{get\+Full\+Price}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_order_ab195ca0c3cec4221dfda8ae818d601c3}{save\+Order}} (\$name, \$phone)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\Hypertarget{class_app_1_1_models_1_1_order_a163addb6f4d71f3e4051d3415b38ea8d}\label{class_app_1_1_models_1_1_order_a163addb6f4d71f3e4051d3415b38ea8d} 
+\index{Order@{Order}!getFullPrice@{getFullPrice}}
+\index{getFullPrice@{getFullPrice}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getFullPrice()}{getFullPrice()}}
+{\footnotesize\ttfamily get\+Full\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Получить полную стоимость заказа.
+
+\begin{DoxyReturn}{Возвращает}
+float Стоимость заказа 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_models_1_1_order_a1dfa1e04d64fb75d4fd0a6362c6cd0c5}\label{class_app_1_1_models_1_1_order_a1dfa1e04d64fb75d4fd0a6362c6cd0c5} 
+\index{Order@{Order}!products@{products}}
+\index{products@{products}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{products()}{products()}}
+{\footnotesize\ttfamily products (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Получить список товаров в заказе.
+
+\begin{DoxyReturn}{Возвращает}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Relations\textbackslash{}\+Belongs\+To\+Many Список товаров в заказе 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_models_1_1_order_ab195ca0c3cec4221dfda8ae818d601c3}\label{class_app_1_1_models_1_1_order_ab195ca0c3cec4221dfda8ae818d601c3} 
+\index{Order@{Order}!saveOrder@{saveOrder}}
+\index{saveOrder@{saveOrder}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{saveOrder()}{saveOrder()}}
+{\footnotesize\ttfamily save\+Order (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$phone }\end{DoxyParamCaption})}
+
+Сохранить информацию о заказе.
+
+
+\begin{DoxyParams}[1]{Аргументы}
+string & {\em \$name} & Имя заказчика \\
+\hline
+string & {\em \$phone} & Телефон заказчика \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+bool Возвращает true, если сохранение успешно, иначе false 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Models/\mbox{\hyperlink{_order_8php}{Order.\+php}}\end{DoxyCompactItemize}

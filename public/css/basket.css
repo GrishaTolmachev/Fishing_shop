@@ -1,0 +1,122 @@
+body {
+
+    font-size: 18px;
+
+    color: #333
+
+}
+
+table {
+    max-width: 1250px;
+    text-align: left;
+    margin: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    text-align: center;
+    vertical-align:middle;
+}
+
+td {
+    text-align: left;
+    vertical-align:middle;
+}
+/* div.thumbnail img {
+    max-height: 200px;
+} */
+
+.details_image_large img{
+    height: 100px;
+    width: 100px;
+    text-align:left;
+}
+
+/* Стилизация кол-ва товара в корзине*/
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    /* сброс стилей */
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    
+    /* сброс браузерных стилей для фокуса */
+    outline: none;
+    
+    /* переопределение стилей для ссылок */
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  
+    /* небольшие вертикальные отступы */
+    margin: 2px 10px;
+  
+    /* невидимая рамка */
+    border: solid 2px transparent;
+    border-radius: 12px;
+  
+    /* для установки размеров используем паддинги */
+    padding: 3px 12px;
+  
+    /* контрастные цвета */
+    color: #ffffff;
+    background-color: #0a78ee;
+}
+  
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+  
+.btn:hover,
+.btn:focus {
+    color: #232323;
+    border-color: currentColor;
+    background-color: white;
+}
+  
+  /* сброс браузерных стилей для фокуса */
+.btn::-moz-focus-inner {
+    border: none;
+}
+.quantity span {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Выравнивание Корзины */
+.BasketContainer {
+    display: flex;
+    justify-content: center;
+}
+.Basket__title {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.Basket__description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+/* Выравнивание кнопки оформить заказ */
+.btn__order {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

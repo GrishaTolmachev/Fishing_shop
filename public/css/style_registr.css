@@ -1,0 +1,25 @@
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__input[type="text"] {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 40px;
+  margin-left: 20px;
+  width: 500px;
+}
+
+.header__button[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  margin-bottom: 0px;
+}
