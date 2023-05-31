@@ -20,9 +20,9 @@ OSP необходимо установить с [сайта](https://ospanel.io
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=имя вашей БД
-DB_USERNAME=логин для входа в 
-DB_PASSWORD=your_password
+DB_DATABASE=Fishing_shop
+DB_USERNAME=логин для входа в БД (admin)
+DB_PASSWORD=пароль (admin)
 
 - Сгенерируйте ключ приложения: **php artisan key:generate**
 
