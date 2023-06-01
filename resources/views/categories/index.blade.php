@@ -67,7 +67,6 @@
           <ul class="list-unstyled">
             <li><a href="#"><i class="fa fa-facebook"></i> VK</a></li>
             <li><a href="#"><i class="fa fa-telegram"></i> Telegram</a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
           </ul>
         </div>
         <div class="footer-column">

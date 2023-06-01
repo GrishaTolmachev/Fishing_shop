@@ -104,4 +104,43 @@
     </div>
     </div>
 </div>
-@endsection
+
+<footer>
+    <div class="container-footer">
+      <div class="row-footer">
+        <div class="footer-column">
+          <h4>Контакты</h4>
+          <ul class="list-unstyled">
+            <li>Телефон: +7 (800) 555-35-35</li>
+            <li>Email: g.a.tolmachev@gmail.com</li>
+            <li>Адрес: г. Пермь, ул. Профессора Дедюкина, д. 24</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Социальные сети</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-facebook"></i> VK</a></li>
+            <li><a href="#"><i class="fa fa-telegram"></i> Telegram</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Полезные ссылки</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div class="container-footer">
+        <div class="row-footer">
+          <div class="col-md-6-footer">
+            <p>&copy; 2023 Рыбацкий дом. Все права защищены.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  @endsection
